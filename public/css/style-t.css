@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* Enlever l'unité */
+/* Convertir pixel en rem */
+/* Convertir pixel en em */
+/* Convertir pixel en % */
+/* Convertir pixel en vw */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    margin-top: -0.7em;
+    padding-right: 1em !important;
+    padding-left: 0 !important;
+  }
+
+  .navbar-brand {
+    margin-left: 0.5em;
+  }
+
+  .navbar-nav {
+    border-top: rgba(30, 30, 30, 0.2) 0.1em solid;
+  }
+
+  .nav-item {
+    background: #f1f1f1 !important;
+    border-bottom: rgba(30, 30, 30, 0.2) 0.1em solid;
+  }
+
+  .nav-item:hover {
+    background: #e4e4e4 !important;
+  }
+
+  .nav-link {
+    margin-left: 0.5em;
+  }
+
+  .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #e4e4e4 !important;
+  }
+
+  .services h2 br {
+    display: none;
+  }
+
+  .whatido {
+    padding: 3em 2em 3em 3em !important;
+  }
+
+  .realisations {
+    width: 660px;
+    height: 820px;
+    margin-left: 3.5em;
+  }
+}
+
+/*# sourceMappingURL=style-t.css.map */

@@ -1,0 +1,108 @@
+@media only screen and (min-width: 768px) {
+  .entete {
+    background-image: url("../img/la-chouette-agence.png");
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 2em;
+  }
+  .logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 50em;
+    height: 50em;
+  }
+  .bg-banniere {
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
+    background-repeat: no-repeat;
+    background-position: top center; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    height: 22em;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.bg-presentation {
+  background-image: url("../img/image-de-presentation.jpg");
+  background-repeat: no-repeat;
+  background-position: top center; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5em;
+}
+.e-journal, .photographes, .voyageur, .mariage {
+  background: url("../img/realisations.png") no-repeat;
+  width: 320px;
+  height: 320px;
+}
+}
+@media only screen and (min-width: 992px) {
+  .entete {
+    margin-left: 1em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .entete {
+    margin: 1em 0 0 1em;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .entete {
+    background-image: url("../img/mobile/la-chouette-agence.png");
+    background-repeat: no-repeat;
+    margin: .5em 0 0 1em;
+    width: 50vw;
+    height: 1.2em;
+  }
+  .logo {
+    background-image: url("../img/mobile/logo.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 20em;
+    height: 20em;
+  }
+  .bg-banniere {
+    background-image: url("../img/mobile/la-chouette-agence-banniere.jpg");
+    background-repeat: no-repeat;
+    background-position: top center; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+} 
+.bg-presentation {
+  background-image: url("../img/mobile/image-de-presentation.jpg");
+  background-repeat: no-repeat;
+  background-position: top center; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5em;
+} 
+.e-journal, .photographes, .voyageur, .mariage {
+  background: url("../img/mobile/realisations.png") no-repeat;
+  width: 246.1px;
+  height: 246.1px;
+  margin-left: 2.5em;
+}
+}
+.e-journal {
+  background-position: left top;
+}
+.photographes {
+  background-position: right top;
+}
+.voyageur {
+  background-position: left bottom;
+}
+.mariage {
+  background-position: right bottom;
+}
+

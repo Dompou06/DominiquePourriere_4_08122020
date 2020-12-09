@@ -1,0 +1,169 @@
+@import "libs/variables.scss";
+@import "libs/functions.scss";
+body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+ul {padding: 0;}
+li {
+  list-style-type:none;
+}
+.none {display: none;}
+//nav
+.navbar-toggler {
+    border: none !important;
+}
+ .navbar-default .navbar-collapse {
+   border: none !important;
+ }
+ button:focus {
+    outline: 0px dotted !important;
+    outline: 0px auto -webkit-focus-ring-color !important;
+  }
+  .nav-item .nav-link {
+    color: #000 !important;
+    font-size: em(20, $tbase);
+    font-weight: 600;
+}
+.navbar-brand img {width: 100%;}
+main {background: transparent !important;}
+//présentation
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 22em;
+    height: 19.55em;
+    font-size: em(18, $tbase);
+    font-weight: 600;
+    color: #fff;
+    background: $orange-rgba;
+
+    & &--logo {padding-bottom: 3em;}
+    & &--texte{
+        padding-bottom: .5em;
+    }  
+}
+h2 {
+    font-size: 1.75rem !important;
+  }
+.icon-lg {
+    font-size: rem(60, $tbase);
+    color: #364577;
+}
+.services {
+  padding: 0 em(40, $tbase);
+}
+.signature {
+  text-align: right !important;
+}
+section {width: 100vw !important;}
+.whatido {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  & h2 {margin: 0;}
+  & p {margin: 0;}
+  & .whatido--bottom {
+    padding-bottom: 2em;
+  }
+}
+.black-background {
+  background-color: rgba(165, 147, 99, 0.7);
+  padding: em(10, $tbase);
+}
+.black-background__darken {
+  background-color: rgba(70, 59, 30, 0.7);
+  padding: em(10, $tbase);
+}
+.envoi {
+  border-radius: 30px !important;
+  font-weight: 700 !important;
+  background: $orange;
+  color: #fff;
+  border: none;
+  padding: em(10, $tbase) em(15, $tbase);
+  margin: em(-10, $tbase) 0 em(10, $tbase) 0 !important;
+  cursor: pointer;}
+.envoi:hover {background: lighten($orange, 10%) !important}
+.lien--page {
+  @extend .envoi;
+}
+.lien--page:hover {
+  background: lighten($orange, 10%) !important;
+  color: #fff;
+  text-decoration: none;
+}
+.b-center {
+  display: flex;
+  justify-content: center;
+}
+#bloc-4-portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+.realisations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.legende {width: 320px;
+  padding: .5em 1em 0 1em;
+  font-size: 14px;}
+h4 {
+  font-size: 16px !important;
+  text-transform: uppercase;
+}
+footer {
+  & a {color: white;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+  }
+}
+.gras {
+  font-size: 20px;
+  font-weight: 600;
+letter-spacing: .02rem;
+}
+//Page Contact
+.titre-formulaire {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+  & h2 {
+    font-size: em(20, $tbase) !important;
+    margin-right: .5em;
+  }
+}
+//Plan de site
+.main-pds {
+  & ul {
+    padding: 2em 2em;
+  }
+  & ul ul {
+    padding-left: 2em;
+  }
+}
+.main-pds a {
+  color: $orange;
+}
+.main-pds a:hover {
+  color: $orange;
+  text-decoration: none;
+}
+//Couleurs
+.social:hover {color: lighten($orange, 50%);}
+.btn-atomic-tangerine {background: $orange;}
+.bgc-atomic-tangerine {@extend .btn-atomic-tangerine;}
+.text-orange__dark {color: darken($orange, 15%);}
+.text-orange {color: $orange;}

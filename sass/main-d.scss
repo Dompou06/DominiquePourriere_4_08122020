@@ -1,0 +1,47 @@
+@import "libs/variables.scss";
+@import "libs/functions.scss";
+
+@media #{$desktop-up} {
+
+header {height: 10vh;}
+.main-contact {height: 60vh;}
+.main-pds {@extend .main-contact;}
+footer {height: 26vh;}
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+blockquote {
+  width: 50vw;
+  margin-left: 25vw !important;
+}
+.whatido {
+    padding: 3em 7em 3em 10em !important;
+}
+.realisations {
+  width: 660px;
+  height: 820px;
+  margin-left: 3.5em;
+}
+//Page Contact
+.form-group {
+    display: flex;
+    align-items: center;
+    & label {
+      width: 25vw;
+      text-align: right; 
+      font-weight: 600;
+      padding: 0 1.5em;    
+    }
+    & input {
+      width: 25vw;
+    }
+    & select {
+      width: 25vw;   
+    }
+    & textarea {
+      width: 25vw;
+      padding: 0;
+    }
+  }
+}
