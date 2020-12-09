@@ -1,0 +1,13 @@
+// Variables device
+$mobile: 767px;
+$desktop: 992px;
+$mobile-up: "only screen and (max-width: #{$mobile})";
+$desktop-up: "only screen and (min-width: #{$desktop})";
+$tablet-up: "only screen and (min-width: #{$mobile + 1px}) and (max-width: #{$desktop - 1px})";
+
+// Variables couleurs
+$orange: #C4470E;
+$orange-rgba:rgba(196,71,14, 0.7);
+
+// Variables unités
+$tbase: 16;
