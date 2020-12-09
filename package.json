@@ -7,8 +7,7 @@
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
     "sass-m": "sass --watch ./sass/main-m.scss:./public/css/style-m.css",
     "sass-d": "sass --watch ./sass/main-d.scss:./public/css/style-d.css",
-    "sass-t": "sass --watch ./sass/main-t.scss:./public/css/style-t.css",
-    "sass-a": "sass --watch ./sass/main-a.scss:./public/css/style-a.css"
+    "sass-t": "sass --watch ./sass/main-t.scss:./public/css/style-t.css"
   },
   "author": "",
   "license": "ISC",
